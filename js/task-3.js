@@ -1,6 +1,6 @@
 // ===== Задача 3. Перевірка спаму =====
 function checkForSpam(message) {
-    if(message.length === message.slice("spam" )|| message.length === "sale") {
+    if(message.length === message.slice("spam")|| message.length === "sale") {
         return true; 
     } else {
         return false;
